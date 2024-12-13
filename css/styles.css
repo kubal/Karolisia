@@ -10999,25 +10999,6 @@ section.resume-section .resume-section-content {
     color: #bd5d38; /* Kolor dla gwiazdek */
 }
 
-.logo-img {
-  height: 300px;
-  margin-left: 170px;
-}
-
-.icon-img {
-  width: 30px;
-  height: auto;
-  margin-left: 10px;
-}
-
-.custom-list {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-.custom-list li {
-  margin-bottom: 10px;
-}
 
 .info-font {
   font-size: 12px;
