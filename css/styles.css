@@ -10957,16 +10957,68 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
-  }
+#kontakt h2 {
+    margin-bottom: 1px; /* Zmniejsz odstęp pod nagłówkiem */
 }
-@media (min-width: 992px) {
-  section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
+
+#kontakt p {
+    margin-top: 1px; /* Zmniejsz odstęp nad tekstem */
+    margin-bottom: 10px; /* Zmniejsz odstęp pod tekstem */
+}
+
+.merged-row {
+    text-align: center; /* Wyśrodkowanie tekstu */
+    font-weight: bold; /* Wyróżnienie tekstu */
+    font-size: 1.1rem; /* Powiększenie czcionki */
+    background-color: #f8f9fa; /* Jasne tło */
+    color: #343a40; /* Ciemny kolor tekstu */
+    padding: 15px; /* Odstęp wewnętrzny */
+    border-top: 2px solid #dee2e6; /* Górna ramka */
+    border-bottom: 2px solid #dee2e6; /* Dolna ramka */
+}
+
+.merged-row {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 15px;
+    border-top: 2px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
+}
+#cennik .notes {
+    font-size: 0.8rem; /* Zmniejszenie czcionki przypisów */
+    color: #6c757d; /* Szary kolor tekstu */
+    line-height: 1.4; /* Lżejszy odstęp między liniami */
+}
+
+#cennik .notes sup {
+    font-size: 0.5em; /* Czcionka dla gwiazdek o połowę mniejsza */
+    vertical-align: baseline; /* Utrzymanie czytelnej pozycji */
+    color: #bd5d38; /* Kolor dla gwiazdek */
+}
+
+.logo-img {
+  height: 300px;
+  margin-left: 170px;
+}
+
+.icon-img {
+  width: 30px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.custom-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.custom-list li {
+  margin-bottom: 10px;
+}
+
+.info-font {
+  font-size: 12px;
 }
