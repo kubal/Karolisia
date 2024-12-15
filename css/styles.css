@@ -10999,7 +10999,67 @@ section.resume-section .resume-section-content {
     color: #bd5d38; /* Kolor dla gwiazdek */
 }
 
-
-.info-font {
-  font-size: 12px;
+.certificates-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+.certificates-list li {
+    margin-bottom: 1.5rem; /* Odstęp między certyfikatami */
+}
+
+.certificates-list li p.info-font {
+    margin-top: 0.5rem; /* Większy odstęp między nazwą certyfikatu a opisem */
+    font-size: 0.8rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.certificates-list strong {
+    font-size: 1.1rem;
+    color: #000;
+    display: block;
+    margin-bottom: 0.4rem; /* Odstęp między tytułem certyfikatu a opisem */
+}
+
+
+ol > li {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: circle;
+}
+    
+ul > li {
+    margin-bottom: 5px; /* Dodaje odstęp między elementami listy */
+}
+
+.list-group {
+    margin-bottom: 15px; /* Dodaje większy odstęp między grupami pytań */
+}
+
+ol > li > strong {
+    display: block; /* Dzięki temu <strong> działa jak blok, umożliwiając odstęp poniżej */
+    margin-bottom: 10px; /* Dodaje odstęp poniżej tytułu */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
